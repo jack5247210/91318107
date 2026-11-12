@@ -1,0 +1,144 @@
+<a href="index.html" class="back-link"><!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周黃證暐 - 個人網頁</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        /* 個人資料區塊：藍色字體、置中對齊 */
+        .personal-info {
+            color: blue;
+            text-align: center;
+            background-color: #e6f0ff;
+            padding: 36px 20px;
+            border-bottom: 2px solid #cce0ff;
+        }
+
+        .personal-info h1 {
+            font-size: 28px;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+        }
+
+        .personal-info p {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 6px 0;
+        }
+
+        /* 網頁其餘內容區塊 */
+        .content {
+            padding: 30px 36px;
+        }
+
+        .section {
+            margin-bottom: 24px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            border-left: 4px solid blue;
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* 詩的賞析超連結按鈕群組 */
+        .link-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .poem-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1a73e8;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .poem-link:hover {
+            background-color: #1557b0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 16px;
+            font-size: 13px;
+            color: #888;
+            background-color: #fafafa;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 個人資料（藍色置中） -->
+        <header class="personal-info">
+            <h1>個人資料</h1>
+            <p>學號：91318107</p>
+            <p>姓名：周黃證暐</p>
+        </header>
+
+        <!-- 個人簡介與作品連結 -->
+        <main class="content">
+            <section class="section">
+                <h2>關於我</h2>
+                <p>你好！我是周黃證暐，歡迎來到我的個人網頁。這裡記錄作品分享。</p>
+            </section>
+
+            <section class="section">
+                <h2>文學與詩詞賞析</h2>
+                <p>點擊下方連結前往欣賞唐代詩人的經典作品：</p>
+                <div class="link-group">
+                    <a href="poem1.html" class="poem-link">詩的賞析1</a>
+                    <a href="poem2.html" class="poem-link">詩的賞析2</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy; 2026 周黃證暐 個人網頁
+        </footer>
+    </div>
+
+</body>
+</html>
